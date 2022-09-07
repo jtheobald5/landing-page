@@ -6,8 +6,6 @@ body {
     margin: 0;
     padding: 0;
     font-family: Roboto, sans-serif;
-    height: 100vh;
-    width: 100vw;
 }
 
 .top {
@@ -15,7 +13,7 @@ body {
 }
 
 .container {
-    padding: 10px 150px 40px;
+    padding: 10px 150px 100px;
 }
 
 .header {
@@ -68,7 +66,8 @@ a {
     color: #f9faf8;
 }
 
-.logo {
+.logo,
+.action {
     color: #f9faf8;
     font-size: 24px;
     align-items: center;
@@ -78,7 +77,9 @@ a {
 a,
 .text1,
 .button1,
-.footer {
+.footer,
+.action-text,
+.button2 {
     font-size: 18px;
     color: #E5e7eb;
 }
@@ -142,7 +143,7 @@ a,
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 30px 200px;
+    padding: 50px 200px 100px;
     flex-wrap: wrap;
 }
 
@@ -190,4 +191,35 @@ a,
     justify-content: flex-end;
     font-size: 36px;
     font-weight: bold;
+}
+
+.last {
+    display: flex;
+    flex-direction: column;
+    padding: 75px 150px;
+}
+
+.blue-box {
+    display: flex;
+    background-color: #3882f6;
+    padding: 25px 100px;
+    align-items: flex-end;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.blue-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.button2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #e5e7eb;
+    background-color: #3882f6;
+    width: fit-content;
+    padding: 6px 25px;
+    border-radius: 5px;
 }
