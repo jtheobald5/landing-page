@@ -21,6 +21,7 @@ body {
 .header {
     display: flex;
     margin-bottom: 75px;
+    flex-wrap: wrap;
 }
 
 .links {
@@ -29,6 +30,7 @@ body {
     justify-content: space-between;
     align-items: center;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 a {
@@ -38,6 +40,7 @@ a {
 .material {
     display: flex;
     gap: 50px;
+    flex-wrap: wrap;
 }
 
 .box1 {
@@ -103,6 +106,7 @@ a,
 .grey {
     display: flex;
     background-color: #e5e7eb;
+    padding: 50px;
 }
 
 .last {
@@ -137,7 +141,8 @@ a,
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 30px 200px
+    padding: 30px 200px;
+    flex-wrap: wrap;
 }
 
 .image-box {
@@ -160,5 +165,11 @@ a,
     gap: 40px;
     padding: 20px;
     justify-content: center;
+    flex-wrap: wrap;
     /* border: 1px solid red; */
+}
+
+.qoute-box {
+    display: flex;
+    flex-wrap: wrap;
 }
