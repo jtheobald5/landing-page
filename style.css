@@ -106,7 +106,8 @@ a,
 .grey {
     display: flex;
     background-color: #e5e7eb;
-    padding: 50px;
+    padding: 100px 250px;
+    justify-content: center;
 }
 
 .last {
@@ -172,4 +173,21 @@ a,
 .qoute-box {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+}
+
+.qoute {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 36px;
+    font-weight: bold;
 }
